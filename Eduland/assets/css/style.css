@@ -199,5 +199,25 @@
     color: var(--mango-tango);
   }
 
-  
+  .navbar{
+    position: fixed;
+    top: 0;
+    /* left: -250px; */
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    background-color: var(--mantis);
+    padding: 80px 20px;
+    transition: 0.15s ease-in;
+    z-index: 3;
+  }
+
+  .navbar.active {
+    left: 0;
+    transition: 0.25 ease-out;
+  }
+
+  .menu-close-btn {
+    
+  }
   
