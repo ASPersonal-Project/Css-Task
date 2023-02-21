@@ -4,6 +4,37 @@ body {
 }
 
 .container{
-    max-width: 65rem;
+    max-width: 50rem;
     margin: 0 auto;
+    border: 2px solid white;
+    padding: 0 2rem;
+}
+
+.main-heading {
+    font-size: 4rem;
+    text-align: center;
+}
+.field-head{
+    font-size: 2rem;
+}
+
+.input-div{
+    margin: 10px 0;
+}
+
+.field-inputs{
+    
+}
+
+.input-div input{
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+#street-address{
+    width: 100%;
+}
+#street-address-2{
+    width: 100%;
 }
