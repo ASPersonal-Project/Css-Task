@@ -22,19 +22,30 @@ body {
     margin: 10px 0;
 }
 
-.field-inputs{
-    
-}
-
-.input-div input{
-    font-size: 2rem;
+.form-control-input{
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 20rem;
     border-radius: 10px;
     margin: 5px 0;
 }
+
+/* .input-div input,select{
+    
+} */
 
 #street-address{
     width: 100%;
 }
 #street-address-2{
     width: 100%;
+}
+
+button{
+    background-color: blue;
+    font-size: 2rem;
+    color: wheat;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px auto;
 }
