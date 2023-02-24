@@ -14,10 +14,20 @@ body {
     font-size: 4rem;
     text-align: center;
 }
+.form-control{
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.heading-field {
+    margin: 1rem 0px 0.6rem;
+  }
 .field-head{
     font-size: 2rem;
 }
-
+.field-inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
 .input-div{
     margin: 10px 0;
 }
