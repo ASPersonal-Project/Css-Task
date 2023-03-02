@@ -1,0 +1,56 @@
+#sidebar{
+    top: 0px;
+    left: 0px;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    border-right: solid;
+    border-color: red;
+
+}
+#sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+#sidebar li {
+    /* padding: 10px; */
+    margin: 20px 0;
+    border-top: 2px solid black;
+    list-style: none;
+    width: 100%;
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+
+#documentation h2 {
+    text-align: left;
+    margin: 0px;
+  }
+
+  #documentation{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}   
+.nav-item{
+    text-decoration: none;
+    padding: 50px;
+}
+
+/* .sidebar li{
+    margin: 10px;
+    background-color: yellow;
+}
+
+.nav-item{
+    margin: 20px;
+    background-color: yellow;
+    
+} */
