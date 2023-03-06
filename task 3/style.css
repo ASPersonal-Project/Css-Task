@@ -14,8 +14,8 @@
     padding: 0;
 }
 #sidebar li {
-    /* padding: 10px; */
-    margin: 20px 0;
+    padding: 15px 0;
+    /* margin: 20px 0; */
     border-top: 2px solid black;
     list-style: none;
     width: 100%;
@@ -39,9 +39,22 @@ h2{
     padding: 20px;
     margin-bottom: 110px;
 }   
+
+#documentation p{
+    padding: 0 15px;
+}
+
+#documentation pre{
+    background-color: gray;
+    padding: 5px;
+    margin-left: 25px;
+}
 .nav-item{
     text-decoration: none;
     padding: 50px;
+}
+.hscroll{
+    padding: 0 15px;
 }
 
 /* .sidebar li{
